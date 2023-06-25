@@ -1,0 +1,61 @@
+body {
+    background-color: #BDC270;
+    text-align: center;
+}
+* {
+    font-family: 'Shadows Into Light Two', cursive;
+}
+header > h1, img{
+    width: 100%;
+    font-size: 40px;
+    letter-spacing: 15px;
+}
+
+.imagenPay {
+    border-radius: 2%;
+}
+
+p{
+    font-size: 20px;
+}
+
+ul, ol, li{
+    list-style: none;
+    padding: 0px;
+    line-height: 40px;
+    font-size: 20px;
+    width: 100%;
+}
+
+nav > ul > a > li {
+ border-style: solid;
+ border-radius: 5px;
+}
+a, a > li {
+    text-decoration: none;
+    color: #7F350A;
+    transition-duration: 1s;
+}
+
+nav > ul > a > li:hover {
+color: #fff;
+background-color:#8C4E2D;
+border-color: #8C4E2D;
+}
+
+ul > a:active {
+    color: gray;
+}
+
+ h2 {
+letter-spacing: 6px;
+ margin-bottom: 0px;
+}
+
+ul {
+    margin-top: 0px;
+}
+
+.subtitle, h2, p {
+    text-transform: uppercase;
+}
